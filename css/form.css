@@ -1,0 +1,169 @@
+.japanese{
+	display: none;
+}
+.top_info{
+	text-align: center;
+	padding: 30px 0;
+}
+.contact-info{
+	    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    margin: 0 15px 0 45px;
+    font-size: 20px;
+}
+.form-info-title{
+	display: inline-block;
+	vertical-align: middle;
+}
+.contact-info span{
+	vertical-align: top;
+}
+.contact-info,
+.contact-info a{
+	color: red;
+}
+#language_switch{
+    background-color: #000000;
+    padding: 5px 27px;
+    text-align: right;
+}
+#language_switch a {
+    background-position: 5px 50%;
+    background-repeat: no-repeat;
+    padding: 2px 35px 2px 26px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#language_switch a:hover{
+	text-decoration: none;
+}
+#language_switch .lang_eng {
+    background-image: url(../images/flag-eng.png);
+}
+#language_switch .lang_jap {
+    background-image: url(../images/flag-jap.png);
+}
+.form-section{
+			background: #000;
+			color: #fff;
+			padding: 0 30px;
+			font-size: 14px;
+		}	
+		.form-section form{
+			clear: both;
+		}
+		.form-section .box{
+			padding: 0 15px;
+		}
+		.form-section h4{
+		font-size: 18px;
+		padding-bottom: 10px;
+		    margin-bottom: 10px;
+    	border-bottom: solid 1px #393939;
+		}
+		.form-info-title{
+			text-align: center;
+			    padding: 30px 0;
+		}
+		.form-section .form-control{
+			background: none;
+			color: #fff;
+			border-color: #fff;
+		}
+		select option {
+		  background:#000;
+		  color: #fff;
+		}
+		.custom-file-label{
+			background: none;
+			padding-left: 8rem;
+			color: rgba(255,255,255,0.6);
+		}
+		.custom-file-label::after{
+			right: auto;
+		    left: 0;
+		    content: "Choose file";
+		    background: none;
+		    border-right: 1px solid #fff;
+		    border-radius: 0;
+		    color: #fff;
+		}
+		small{
+			display: inline-block;
+			line-height: 1.1;
+			margin-top: 10px;
+		}
+		.btn{
+			border-color: #fff;
+		}
+		.socials {
+		    display: block;
+		    margin: auto;
+		    text-align: center;
+		    margin: 15px 0;
+		        font-size: 14px;
+		}
+		.fa {
+    padding: 4px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: var(--color);
+    margin-bottom: 5px;
+}
+		.fa.fa-twitter:after {
+    content: "twitter";
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.fa.fa-facebook:after {
+    content: "facebook";
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.fa.fa-linkedin:after {
+    content: "linkedin";
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.fa.fa-google:after {
+    content: "google";
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.fa:hover {
+    cursor: pointer;
+    outline: solid #ffffff 1px;
+}
+.bg-black {
+    background-color: #040404 !important;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(255, 255, 255, 1);
+  background-color: ghostwhite;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  color: rgba(255, 255, 255, 1);
+  background-color: ghostwhite;
+}
+.datepicker table tr td.day.focused, .datepicker table tr td.day:hover{
+	color: #000;
+}
+.datepicker .datepicker-switch:hover, .datepicker .next:hover, .datepicker .prev:hover, .datepicker tfoot tr th:hover{
+	color: #000;
+}
+
+/* responsive css start here */
+@media (max-width: 767.98px) {
+.form-section {
+    padding: 30px 15px;
+}	
+.form-info-title {
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+.form-section .box {
+    padding: 0;
+    margin-bottom: 30px;
+}
+}
